@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: hsl(30, 54%, 90%);
+}
+
+main {
+    min-height: 375px;
+    max-width: 730px;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    background-color: hsl(0, 0%, 100%); 
+    border-radius: 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.titulos{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+#principal {
+    color: hsl(24, 5%, 18%);
+}
+
+section {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul > li {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+ol > li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding-left: 10px;
+    font-family: "Outfit", sans-serif;
+}
+
+::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+#preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+#preparation h2{
+    color: hsl(332, 51%, 32%);
+    font-size: 21px;
+    font-weight: 600;
+}
+
+hr {
+    margin-top: 30px;
+}
+
+.nutri {
+    margin-top: 20px;
+}
+
+.nutri .linhaTabela {
+    display: flex;
+    gap: 40px;
+    padding: 12px 30px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutri .linhaTabela span:first-child {
+  min-width: 280px;
+}
+
+.nutri .valor{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+
+#pNutri {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
